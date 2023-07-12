@@ -200,6 +200,7 @@ class RBuildPack(PythonBuildPack):
             "sudo",
             "lsb-release",
             "libssl-dev",
+            "rmarkdown"
         ]
 
         return super().get_packages().union(packages)
